@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    /* font-weight: 700;
+    font-size: 55px;
+    font-family: Roboto Slab; */
+   position: absolute;
+    width: 365px;
+    height: 93px;
+    top: 91px;
+    left: 124px;
+    /* background-color: aqua; */
+}
+.img1{
+    width: 314px;
+    height: 315px;
+}
+.img2{
+    width: 232px;
+    height: 203px;
+}
+.text{
+    width: 662px;
+    height: 374px;
+    position: absolute;
+    top: 202px;
+    left: 124px;
+}
+.text p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+}
+.icon1{
+    width: 314px;
+    height: 315px;
+    position: absolute;
+    top: 228px;
+    left: 987px;
+}
+.ellipse{
+    width: 366px;
+    height: 59px;
+    position: absolute;
+    top: 511px;
+    left: 950px;
+    background-color: #efefef;
+    border-radius: 25px;
+}
+.icon2{
+    width: 232px;
+    height: 203px;
+    position: absolute;
+    top: 670px;
+    left: 124px;
+}
+.one{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+    top: 740px;
+    left: 488px;
+}
+.two{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+    left: 733px;
+    top: 740px;
+   
+    
+}
+.three{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+    left: 976px;
+ top: 740px;
+  
+}
+/* .footer{
+    position: absolute;
+    bottom: 2px;
+
+
+} */
+/* #first{
+  width: 150px;
+  height: 39px;
+  position: absolute;
+  top: 780px;
+  left: 200px;
+}
+#second{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+    top: 780px;
+    left: 733px;
+}
+#third{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+    top: 780px;
+    left: 976px;
+} */
+footer h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+footer p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+
+}
