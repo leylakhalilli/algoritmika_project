@@ -1,12 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-
 }
-
 .content{
     position: relative;
     margin-bottom: 10px;
@@ -17,7 +14,6 @@ header{
     height: 93px;
     top: 91px;
     left: 124px;
-   
 }
 .img1{
     width: 314px;
@@ -26,7 +22,6 @@ header{
     top: 228px;
     left: 987px;
     z-index: 3;
- 
 }
 .ellipse1{
     position: absolute;
@@ -66,28 +61,6 @@ header{
     font-size: 24px;
     text-align: left;
 }
-/* .text p{
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 24px;
-    text-align: left;
-} */
-/* .icon1{
-    width: 314px;
-    height: 315px;
-    position: absolute;
-    top: 228px;
-    left: 987px;
-    z-index: 3;
-} */
-/* .icon2{
-    width: 232px;
-    height: 203px;
-    position: absolute;
-    top: 670px;
-    left: 124px;
-    z-index: 4;
-} */
 .one{
     width: 150px;
     height: 39px;
@@ -101,8 +74,7 @@ header{
     height: 39px;
     position: absolute;
     left: 733px;
-    top: 740px; 
-    
+    top: 740px;  
 }
 .three{
     width: 150px;
@@ -110,7 +82,6 @@ header{
     position: absolute;
     left: 976px;
     top: 740px;
-  
 }
 .child{
     margin-bottom: 9px;
@@ -124,13 +95,10 @@ footer h1{
 }
 footer p{
     font-family: Roboto;
-    /* font-weight: 400; */
     font-size: 18px;
 
 }
-
-@media (max-height:633px ) and (max-width:834px) {
-
+@media (max-height:633px ) and (max-width:1440px) {
     header{
     position: absolute;
     width: 211.4px;
@@ -205,4 +173,70 @@ footer p{
     footer p{
         font-size: 11px;
     }
+}
+
+@media (max-width:834px)  {
+   
+    header{
+        position: absolute;
+      width: 170.08px;
+      height: 43.34px;
+      left: 36px;
+      top: 56px;
+    }
+  header>h1{
+    font-size: 26px;
+  }
+    .text{
+        position: absolute;
+        width: 308.47px;
+        height: 174.27px;
+       left: 36px; 
+       font-size: 12px;
+       top: 107.72px;
+    }
+    .img1{
+        position: absolute;
+        width: 170.55px;
+        height: 160.29px;
+       left: 101px;
+        top: 338px;
+    }
+    .ellipse1{
+    position: absolute;
+    width: 170.55px;
+    height: 27.49px;
+    left: 101px;
+    top: 470.8px;
+    }
+    .img2,.ellipse2{
+        display: none;
+    }
+    .one{
+        position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 35px;
+    top: 544px;
+    }
+    .two{
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 154.16px;
+        top: 544px;
+    }
+    .three{
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 615px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+.child>h1{
+    font-size: 12px;
+}
 }
